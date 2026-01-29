@@ -11,3 +11,11 @@ def ispalidrome(num):
     return num==reverse(num)
 print(reverse(121))
 print(ispalidrome(121))
+
+def getpalidrome(start,end):
+    res=""
+    for i in range(1,end+1):
+        if ispalidrome(i):
+            res=res+str(i)+"."
+    return res
+print(getpalidrome(1,1000))
