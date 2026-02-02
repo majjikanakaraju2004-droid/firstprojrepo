@@ -1,0 +1,3 @@
+story 20
+
+print("story 20")
