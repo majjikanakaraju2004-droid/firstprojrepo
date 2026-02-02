@@ -1,0 +1,9 @@
+<<<<<<< Updated upstream
+story 20
+
+print("story 20")
+=======
+story 19
+
+print("I am story 19")
+>>>>>>> Stashed changes
